@@ -6,8 +6,11 @@ $(document).ready(onReady);
 
 function onReady() {
     console.log('jQuery works!');
-    $('#countUpButton').click( function(){
-        clickCounter += 1;
-        $('#clickCount').text(clickCounter);
-    });
+    $('#countUpButton').click( clickHandler );
+}
+
+function clickHandler() {
+    console.log('countUpButton was clicked!');
+    clickCounter += 1;
+    $('#clickCount').text(clickCounter);
 }
