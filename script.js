@@ -1,3 +1,5 @@
+console.log('Javascript works!');
+
 $(document).ready(onReady);
 
 function onReady() {
