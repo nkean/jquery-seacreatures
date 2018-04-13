@@ -2,3 +2,11 @@ body {
     color: steelblue;
     font-family: Menlo, sans-serif;
 }
+
+table, th, td {
+    border: 1.5px solid seagreen;
+}
+
+table {
+    width: 100%;
+}

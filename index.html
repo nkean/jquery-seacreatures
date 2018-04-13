@@ -11,12 +11,42 @@
 </head>
 <body>
     <h1>jQuery Sea Creatures</h1>
-    <input id="creatureName" type="text">
-    <input id="creatureSize" type="text">
-    <input id="creatureType" type="text">
-    <input id="creatureSpeed" type="text"> <!-- Possibly make this a drop down, Slow, Normal, Fast -->
+    <input id="newCreatureName" placeholder="Creature's Name" type="text">
+    <input id="newCreatureSize" placeholder="Creature's Size" type="number">
+    <input id="newCreatureType" placeholder="Creature's Type" type="text">
+    <input id="newCreatureSpeed" placeholder="Creature's Speed" type="number"> <!-- Possibly make this a drop down, Slow, Normal, Fast, Hella Quick -->
     <button id="countUpButton">Add Sea Creature!</button>
     <span id="clickCount"></span>
-    <table id="creatureTable"></table>
+    <br/><br/>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Type</th>
+                <th>Speed</th>
+            </tr>
+        </thead>
+        <tbody id="creatureList">
+            <tr>
+                <td>Orca</td>
+                <td>30 ft</td>
+                <td>Dolphin</td>
+                <td>25 mph</td>
+            </tr>
+            <tr>
+                <td>Walrus</td>
+                <td>Large</td>
+                <td>Blubbery</td>
+                <td>Waddle</td>
+            </tr>
+            <tr>
+                <td>Fish</td>
+                <td>Smaller than me</td>
+                <td>Delicious</td>
+                <td>Not fast enough</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
